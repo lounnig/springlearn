@@ -13,10 +13,11 @@
     <title>User</title>
 </head>
 <body>
-    name: ${u.userName} <br>
-    age: ${u.age}
-    <c:out value="${u}"/>
-    <c:if test="${u!=null}">
+    name: ${user.username} <br>
+    id: ${user.id}
+    <hr>
+    <c:out value="${user}"/>
+    <c:if test="${user!=null}">
         aa
     </c:if>
 </body>

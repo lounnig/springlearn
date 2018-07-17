@@ -12,5 +12,6 @@
 </head>
 <body>
     <h1>Hello SpringMvc!</h1>
+    <a href="/u">/user</a>
 </body>
 </html>
